@@ -19,4 +19,5 @@ jobs:
         command_timeout: 30m
         envs: DISCORD_TOKEN
         script: |
-                    bash /opt/scripts/deploy.sh
+          sudo chown -R "$(id -un)":"$(id -gn)" /var/www/Discord-Resources-Wiki/build || true
+          bash /opt/scripts/deploy.sh
