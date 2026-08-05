@@ -20,7 +20,7 @@
     "fix:js": "eslint --config .eslintrc.js --fix --ignore-path .gitignore --ext .js **/*.js **/*.jsx"
   },
   "dependencies": {
-    "@discordjs/rest": "^2.6.1",
+    "@discordjs/rest": "^2.6.3",
     "@docusaurus/core": "^3.10.2",
     "@docusaurus/preset-classic": "^3.10.2",
     "@easyops-cn/docusaurus-search-local": "^0.40.1",
